@@ -1,9 +1,18 @@
-
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: rgb(229, 255, 127);
 }
+.product {
+    display: grid;
+  grid-template-rows: auto auto auto auto;
 
+  }
+.product{
+    display: flex;
+    height: 250px;
+    background-color: rgb(220, 144, 200);
+}
 .products, .cart {
     float: left;
     width: 45%;
